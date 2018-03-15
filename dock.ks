@@ -149,8 +149,8 @@ if defined target and target:targetable
 
 		//Print stuff
 		print "Corr. X  : " + round(0,3) + "      " at (0, terminal:height - 9).
-		print "Corr. Y  : " + round(PID_y:output,3) + " (" + Ky + ")      " at (0, terminal:height - 8).
-		print "Corr. Z  : " + round(PID_z:output, 3) + " (" + Kz + ")      " at (0, terminal:height - 7).
+		print "Corr. Y  : " + round(PID_y:output,3) + " (" + Vy + ")      " at (0, terminal:height - 8).
+		print "Corr. Z  : " + round(PID_z:output, 3) + " (" + Vz + ")      " at (0, terminal:height - 7).
  
 		print "Vel. X   : " + round(targetVel_x, 3) + "m/s      " at (terminal:width / 2, terminal:height - 9).
 		print "Vel. Y   : " + round(targetVel_y, 3) + "m/s      " at (terminal:width / 2, terminal:height - 8).
